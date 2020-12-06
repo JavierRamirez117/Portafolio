@@ -67,7 +67,7 @@ background-banner-posts
 */
 
 .background-banner {
-    background-image: url('../Img/background-banner.jpg');
+    background-image: url('../Img/background-banner3.0.jpg');
     background-size: cover;
     background-position: center;
     margin: auto;
@@ -94,6 +94,8 @@ components
     background-color: #00000000;
     padding: 8px 15px;
     border: 0;
+    text-decoration: none;
+
 }
 
 .card {
