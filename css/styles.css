@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/*
+Navigation
+*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #020208;
+}
+
+.nav ul.hide {
+    display: none;
+}
+
+nav a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 0.50rem;
+    text-transform: uppercase;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+/*
+Helpers
+*/
+
+.primary-text {
+    color: white;
+}
+
+.text-thick {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+.center-text {
+    text-align: center;
+}
+
+.space-top {
+    margin-top: 20px;
+}
+
+.text-secondary {
+    margin-left: 110px;
+    font-size: medium;
+}
+
+/*
+background-banner-posts
+*/
+
+.background-banner {
+    background-image: url('../Img/background-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.background-posts {
+    background-image: url('../Img/background-posts.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.background-future-projects {
+    background-color: black;
+}
+
+
+/*
+components
+*/
+
+.primary-button {
+    color: white;
+    background-color: #00000000;
+    padding: 8px 15px;
+    border: 0;
+}
+
+.card {
+    background-color: #ffffff00;
+}
+
+.card .card-body {
+    padding: 10px;
+}
+
+/*
+images the future projects
+*/
+
+.img-arrangement {
+    max-width: 250px;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 4px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+/*
+logo
+*/
+
+.logo-azte {
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+
+}
+
+/*
+icons
+*/
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.background-icons {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.separated {
+    margin: 10px;
+}

@@ -1,0 +1,93 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+[class*="col-"] {
+    padding: 10px;
+}
+
+/* Tablets */
+@media (min-width: 576px) {
+    .row {
+        display: flex;
+    }
+
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.3333%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33333%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+}
+
+
+
+/*===== tablets =====*/
+@media (min-width: 768px) {
+    .row{
+      display: flex;
+    }
+    
+    .col-mda-1 {width: 8.33%;}
+    .col-mda-2 {width: 16.66%;}
+    .col-mda-3 {width: 25%;}
+    .col-mda-4 {width: 33.33%;}
+    .col-mda-5 {width: 41.66%;}
+    .col-mda-6 {width: 50%;}
+    .col-mda-7 {width: 58.33%;}
+    .col-mda-8 {width: 66.66%;}
+    .col-mda-9 {width: 75%;}
+    .col-mda-10 {width: 83.33%;}
+    .col-mda-11 {width: 91.66%;}
+    .col-mda-12 {width: 100%;}
+  }
+
+
+/*===== big screens =====*/
+@media (min-width: 992px) {
+    .row{
+      display: flex;
+    }
+    
+    .col-big-1 {width: 8.33%;}
+    .col-big-2 {width: 16.66%;}
+    .col-big-3 {width: 25%;}
+    .col-big-4 {width: 33.33%;}
+    .col-big-5 {width: 41.66%;}
+    .col-big-6 {width: 50%;}
+    .col-big-7 {width: 58.33%;}
+    .col-big-8 {width: 66.66%;}
+    .col-big-9 {width: 75%;}
+    .col-big-10 {width: 83.33%;}
+    .col-big-11 {width: 91.66%;}
+    .col-big-12 {width: 100%;}
+    
+  }
+
+  /*===== extra large screens =====*/
+@media (min-width: 2560px) {
+    .row{
+      display: flex;
+    }
+    
+    .col-bigX-1 {width: 8.33%;}
+    .col-bigX-2 {width: 16.66%;}
+    .col-bigX-3 {width: 25%;}
+    .col-bigX-4 {width: 33.33%;}
+    .col-bigX-5 {width: 41.66%;}
+    .col-bigX-6 {width: 50%;}
+    .col-bigX-7 {width: 58.33%;}
+    .col-bigX-8 {width: 66.66%;}
+    .col-bigX-9 {width: 75%;}
+    .col-bigX-10 {width: 83.33%;}
+    .col-bigX-11 {width: 91.66%;}
+    .col-bigX-12 {width: 100%;}
+    
+  }
