@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/gried.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <script src="./menu.js"></script>
 </head>
 <body>
     <div class="container">
         <header>
-            <nav class="nav align-items-center">
+            <nav class="nav ">
                 <img class="logo-azte" src="./Img/logo.png" alt="">
-                <ul>
+                <ul id="menu" class="hide">
                     <li>
                         <a href="#">LinkedIn</a>
                     </li>
@@ -27,6 +28,9 @@
                          <a href="./Img/contacto.png" download="contacto">CONTACTO</a>
                     </li>
                 </ul>
+                <a onclick="showMenu()" href="#">
+                    <i class="fas fa-bars"></i>
+                </a>
             </nav>
         </header>
     </div>

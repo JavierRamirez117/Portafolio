@@ -35,6 +35,25 @@ nav li {
     display: inline-block;
 }
 
+/*.nav ul.hide{
+    display: none;
+}
+*/
+#menu {
+    top: 40px;
+    position: fixed;
+    height: 100vh;
+    width: 110px;
+    background-color: rgba(3, 0, 49, 0);
+    color: white;
+    right: 0;
+    transition: right 2s;
+}
+
+#menu.hide {
+    right: -100px;
+}
+
 /*
 Helpers
 */
