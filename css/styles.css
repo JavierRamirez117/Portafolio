@@ -47,7 +47,7 @@ nav li {
     background-color: rgba(3, 0, 49, 0);
     color: white;
     right: 0;
-    transition: right 2s;
+    transition: right 0.1;
 }
 
 #menu.hide {
